@@ -1,3 +1,5 @@
+package ru.netology
+
 fun main() {
     val amount: Int = 55000
     val minTranslation: Int = 35
@@ -6,7 +8,7 @@ fun main() {
     val amountCop: Int = amount * 100
     val minTranslationCop: Int = minTranslation * 100
 
-    val sumCommission : Double = amountCop / 100 * 0.75
+    val sumCommission: Double = amountCop / 100 * 0.75
 
 
     if(sumCommission < minTranslationCop) {
